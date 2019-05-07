@@ -1,26 +1,32 @@
 @font-face {
   font-family: "DINPro-Medium";
-  src: url("../fonts/DINPro-Medium.ttf") format("truetype"), url("../fonts/DINPro-Medium.woff") format("woff"), url("../fonts/DINPro-Medium.svg") format("svg"); }
+  src: url("../fonts/DINPro-Medium.ttf") format("truetype"), url("../fonts/DINPro-Medium.woff") format("woff"), url("../fonts/DINPro-Medium.svg") format("svg");
+  font-display: swap; }
 
 @font-face {
   font-family: "DINPro-Light";
-  src: url("../fonts/DINPro-Light.ttf") format("truetype"), url("../fonts/DINPro-Light.woff") format("woff"), url("../fonts/DINPro-Light.svg") format("svg"); }
+  src: url("../fonts/DINPro-Light.ttf") format("truetype"), url("../fonts/DINPro-Light.woff") format("woff"), url("../fonts/DINPro-Light.svg") format("svg");
+  font-display: swap; }
 
 @font-face {
   font-family: "DINPro";
-  src: url("../fonts/DINPro.ttf") format("truetype"), url("../fonts/DINPro.woff") format("woff"), url("../fonts/DINPro.svg") format("svg"); }
+  src: url("../fonts/DINPro.ttf") format("truetype"), url("../fonts/DINPro.woff") format("woff"), url("../fonts/DINPro.svg") format("svg");
+  font-display: swap; }
 
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.svg") format("svg"); }
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.svg") format("svg");
+  font-display: swap; }
 
 @font-face {
   font-family: "Roboto-Light";
-  src: url("../fonts/Roboto-Light.ttf") format("truetype"), url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Regular.svg") format("svg"); }
+  src: url("../fonts/Roboto-Light.ttf") format("truetype"), url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Regular.svg") format("svg");
+  font-display: swap; }
 
 @font-face {
   font-family: "Gilroy";
-  src: url("../fonts/Gilroy-ExtraBold.ttf") format("truetype"), url("../fonts/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold.svg") format("svg"); }
+  src: url("../fonts/Gilroy-ExtraBold.ttf") format("truetype"), url("../fonts/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold.svg") format("svg");
+  font-display: swap; }
 
 * {
   box-sizing: border-box; }
@@ -35,7 +41,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: 'DINPro-Light';
+  font-family: 'DINPro-Light', sans-serif;
   font-size: 16px;
   color: #222222;
   color: var(--bl); }
@@ -76,13 +82,13 @@ body {
     margin-bottom: 0.4em;
     letter-spacing: -0.01em; }
   .header__sub-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     color: #4A4556; }
   .header__sub-title_red {
     color: #F47821;
     color: var(--red); }
   .header__submit {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy', sans-serif;
     text-transform: uppercase;
     line-height: 20px;
     letter-spacing: 0.02em;
@@ -158,11 +164,11 @@ body {
     color: #F47821;
     color: var(--red);
     letter-spacing: 0.04em;
-    font-family: "DINPro-Medium"; }
+    font-family: "DINPro-Medium", sans-serif; }
   .section-1__text {
     margin: 18px 0 0 0;
     font-size: 1.5em;
-    font-family: "DINPro"; }
+    font-family: "DINPro", sans-serif; }
 
 .section-2 {
   width: 100%;
@@ -187,7 +193,7 @@ body {
     margin-bottom: 20px;
     letter-spacing: -0.02em; }
   .section-2__text {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     line-height: 26px; }
 
 .section-3 {
@@ -218,7 +224,7 @@ body {
   .section-3__subtitle {
     position: relative;
     font-size: 1.25em;
-    font-family: 'DINPro-Medium';
+    font-family: 'DINPro-Medium', sans-serif;
     margin-top: 30px;
     letter-spacing: -0.01em;
     color: #000000; }
@@ -233,7 +239,7 @@ body {
       background: var(--red); }
   .section-3__text {
     margin-top: 50px;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     color: #4E4D53;
     line-height: 26px; }
 
@@ -260,7 +266,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     color: #FFFFFF;
-    font-family: "DINPro-Medium";
+    font-family: "DINPro-Medium", sans-serif;
     font-weight: 300;
     margin-top: 48px;
     margin-bottom: 0px;
@@ -276,7 +282,7 @@ body {
     color: #F47821;
     color: var(--red);
     margin-right: 28px;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     flex: 0 0 auto;
     font-size: 1.25em; }
   .section-4__input {
@@ -286,7 +292,7 @@ body {
     background: #161616;
     border: none;
     border-bottom: 2px solid rgba(247, 248, 250, 0.1);
-    font-family: "Roboto-Light";
+    font-family: "Roboto-Light", sans-serif;
     font-size: 1.5em;
     color: rgba(255, 255, 255, 0.3);
     padding-bottom: 19px;
@@ -307,7 +313,7 @@ body {
     margin: 58px auto 0 auto;
     padding: 20px;
     border-radius: 50px;
-    font-family: "Gilroy";
+    font-family: "Gilroy", sans-serif;
     font-size: 0.875em;
     text-transform: uppercase;
     color: #F47821;
