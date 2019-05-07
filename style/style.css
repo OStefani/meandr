@@ -60,7 +60,7 @@ body {
   padding-right: 30px;
   position: relative; }
   .header__title-container {
-    opacity: 01;
+    opacity: 1;
     position: absolute;
     top: 50%;
     left: 50%;
