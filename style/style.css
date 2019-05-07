@@ -133,8 +133,7 @@ body {
 .section-1 {
   background: #F7F5FA;
   width: 100%;
-  padding-bottom: 80px;
-  height: 1045px; }
+  padding-bottom: 80px; }
   .section-1__outer-container {
     display: flex;
     justify-content: center;
