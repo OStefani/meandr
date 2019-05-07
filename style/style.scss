@@ -79,11 +79,12 @@ body {
         opacity: 01;
         position: absolute;
         top: 50%;
-        transform: translateY(-50%) scaleY(1);
+        left: 50%;
+        transform: translateY(-50%) scaleY(1) translateX(-50%);
         transition: all 0.5s ease;
         &_hide {
             opacity: 0;
-            transform: translateY(10%) scaleY(0);
+            transform: translateY(10%) scaleY(0) translateX(-50%);
             transition: all 0.5s ease;
 
         }
