@@ -5,8 +5,7 @@
 
 @font-face {
   font-family: "DINPro-Light";
-  src: url("../fonts/DINPro-Light.ttf") format("truetype"), url("../fonts/DINPro-Light.woff") format("woff"), url("../fonts/DINPro-Light.svg") format("svg");
-  font-display: swap; }
+  src: url("../fonts/DINPro-Light.ttf") format("truetype"), url("../fonts/DINPro-Light.woff") format("woff"), url("../fonts/DINPro-Light.svg") format("svg"); }
 
 @font-face {
   font-family: "DINPro";
