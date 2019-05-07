@@ -22,9 +22,17 @@ document.getElementById('form').addEventListener('submit', function(e) {
 });
 // Header
 let header = document.getElementsByClassName('header__title-container')[0];
-setTimeout(() => {
-    header.classList.remove('header__title-container_hide');
-}, 500);
+if (window.innerWidth < 768) {
+    header.style.opacity = 1;
+    header.style.transform = 'translateY(-50%) scaleY(1) translateX(-50%)';
+}
+else {
+    
+    setTimeout(() => {
+        header.classList.remove('header__title-container_hide');
+    }, 500);
+}
+
 
 })
 
